@@ -34,7 +34,7 @@ bool firstTime = true;
 
 short int current_cmd_buffer_pos = 0;  // used for up/down arrows - keeps track of where you are in the command buffer
 
-__attribute__((weak)) const char terminal_prompt[8] = "> ";
+__attribute__((weak)) const char terminal_prompt[8] = "hello? ";
 
 #ifdef AUDIO_ENABLE
 #    ifndef TERMINAL_SONG
