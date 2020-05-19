@@ -161,7 +161,7 @@ endif
 
 # Set the default goal depending on where we are running make from
 # this handles the case where you run make without any arguments
-.DEFAULT_GOAL := all:all
+.DEFAULT_GOAL := keebio/quefrency/rev1:nfirvine_65:flash
 ifneq ($(KEYMAP),)
     .DEFAULT_GOAL := $(KEYBOARD):$(KEYMAP)
 else ifneq ($(KEYBOARD),)
